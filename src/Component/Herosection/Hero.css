@@ -1,0 +1,66 @@
+.hero-container-bg{
+  margin-top: 118px;
+  padding: 50px 30px;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+
+}
+.hero-main-container{
+    display: flex;align-items: center;
+    justify-content: center;
+    
+}
+.grid-content{
+
+   height: 430px;
+   width: 700px;
+    background-image: linear-gradient(rgb(237, 234, 238) .1px, transparent .1em),
+     linear-gradient(90deg, rgb(237, 234, 238) 1px, transparent .1em);
+    background-size: 1em 1em;
+}
+.grid-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grid-topic{
+  margin:20px;
+    color: rgb(88,32,102);
+    font-size: 17px;
+    font-weight: 600;
+}
+.grid-head{
+    color: #121417;
+    line-height: 72px;
+    font-size: 62px;
+    font-weight: 600;
+    text-align:center;
+    margin: 0%;
+}
+.grig-para{
+    font-size: 18px ;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 600;
+    color: #5A6475;
+}
+.grid-button{
+    display: flex;
+    align-items: center;
+  border: none;
+  gap:10px;
+  cursor: pointer;
+  background:#582066 ;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+font-size: large;
+margin-top: 10px;
+}
+.note{
+    font-size: 14px;
+    color: #5A6475;
+    margin-top: 10px;
+    font-weight: 600;
+}

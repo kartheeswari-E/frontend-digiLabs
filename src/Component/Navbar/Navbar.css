@@ -1,0 +1,106 @@
+.navbar-container{
+    border-bottom: 1px solid #E6E7E9;
+   top: 42px;
+    position: fixed;
+    width: 99%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8%;
+    padding: 1%;
+    flex-direction: row;
+}
+.logo-container{
+    margin-left: 4%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.gap-top{
+    margin-top: 10px;
+}
+
+.login-container{
+    width: fit-content;
+}
+
+
+.sub-list a{
+   display: flex;
+   padding: 5px;
+   gap:2%;
+}
+.list-items,
+.sub-list{
+    
+    align-items: center;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-right: 20px;
+    padding-left: 2rem;
+}
+.list-items{
+gap:20px;
+}
+li{
+    position: relative;
+}
+a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #393d44;
+    white-space: nowrap;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.dropdown ul {
+    display: block;
+    position: absolute;
+    left: 14px;
+    top: calc(100% + 30px);
+    margin: 0;
+    padding: 10px 20px;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    transition: 0.3s;
+    border-top: 2px solid rgb(104, 13, 147);
+}
+
+.dropdown:hover>ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+}
+
+.list{
+text-align: center;
+}
+.login-container{
+    font-size: 18px;
+    color:  #5A6475;
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    gap:8px;
+    margin-left: 4%;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    background: rgb(238,239,239);
+}

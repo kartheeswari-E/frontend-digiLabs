@@ -1,0 +1,10 @@
+.swiper-container{
+    padding: 70px 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap:30px;
+
+}

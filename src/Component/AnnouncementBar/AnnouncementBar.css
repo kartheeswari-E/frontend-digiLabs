@@ -1,0 +1,25 @@
+.announcement-container{
+     position: fixed;
+    top: 0; 
+    display:flex;
+    background: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #E6E7E9;
+    padding:8px;
+    gap:1.5%;
+    width: 99%;
+}
+.announcement-button{
+    font-size:13px;
+    border: 1px solid rgb(230,231,233);
+    padding: 2px 8px 4px 8px;
+    background: rgb(241,241,242);
+    border-radius: 15px;
+    font-weight: 400;
+}
+.announcement-sentence{
+    font-size: 15px;
+    font-weight:600;
+}

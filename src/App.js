@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import AnnouncementBar from './Component/AnnouncementBar/AnnouncementBar';
+import Division from './Component/Featuredivision/Division';
+import Feature from './Component/Features/Feature';
+import Hero from './Component/Herosection/Hero';
+import Mobile from './Component/Mobilecomponent/Mobile';
+import Navbar from './Component/Navbar/Navbar';
+import Swiper from './Component/Swiper/Swiper';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <>
+  <AnnouncementBar/>
+  <Navbar/>
+  <Hero/>
+<Swiper/>
+<Feature/>
+<Division/>
+<Feature/>
+<Mobile/>
+  </>
 }
 
 export default App;

@@ -1,0 +1,45 @@
+.feature-whole-container{
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 96px 80px 96px 80px;
+}
+.section-one{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0px 32px 0px 32px;
+    justify-content: center;
+}
+.feature-head{
+ 
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #121417;
+    
+}
+.feature-content{
+    margin-top: 20px;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+color: 
+#5A6475;
+}
+.link-feature{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-top: 30px;
+    font-weight: 600;
+    color: #582066;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
