@@ -1,0 +1,94 @@
+
+.testimonial-slider {
+  margin:150px auto;
+  width: 80vw;
+  height: 450px;
+  max-width: 800px;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+.company-testi{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.testi-content{
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(40, 41, 44);
+    margin-bottom: 30px;
+}
+.avathar-name{
+    font-weight: 600;
+    padding: 5px 0 3px 0;
+    font-size: large;
+}
+article{ 
+text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity:0;
+  transition: all 0.3s linear;
+}
+.avathar-role{
+    color: #5A6475;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+article.activeslide {
+  opacity: 1;
+  transform: translateX(0);
+}
+article.lastslide {
+  transform: translateX(-100%);
+}
+article.nextslide {
+  transform: translateX(100%);
+}
+
+
+.prev,
+.next {
+  position: absolute;
+  top: 250px;
+  background: hsl(288, 100%, 90%);
+  color: #fff;
+  width: 3rem;
+  height: 3rem;
+border-radius: 35px;
+border: none;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.i{
+    font-size: 20px;
+}
+.prev:hover,
+.next:hover {
+  background: hsl(293, 62%, 45%);
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}
+@media (min-width: 800px) {
+  .prev,
+  .next {
+    width: 2rem;
+    height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    font-size: 24px;
+  }
+}

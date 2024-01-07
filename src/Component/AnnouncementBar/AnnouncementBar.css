@@ -1,4 +1,5 @@
 .announcement-container{
+    z-index: 1000;
      position: fixed;
     top: 0; 
     display:flex;
@@ -23,3 +24,11 @@
     font-size: 15px;
     font-weight:600;
 }
+@media screen and (max-width:500px){
+    .announcement-container{
+        width: fit-content;
+    }
+    .announcement-sentence{
+       padding-left: 10px;
+    }
+    }
