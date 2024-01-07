@@ -33,3 +33,9 @@ justify-content: center;
     color: #5A6475;
     font-weight: 600;
 }
+@media screen and (max-width:600px){
+    .call-sub-container{
+        margin-bottom: 30px;
+    }
+        
+    }

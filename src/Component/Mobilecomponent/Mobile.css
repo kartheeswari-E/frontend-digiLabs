@@ -4,5 +4,17 @@
     justify-content: center;
     gap:30px;
     padding: 20px 0px;
+    flex-wrap: wrap;
     margin-bottom: 150px;
 }
+@media screen and (max-width:600px){
+    .left-container img{
+        width: 350px;
+     }
+     .right-container img{
+        width: 350px;
+     }
+     .mobile-whole-container {
+        margin-bottom: 100px;
+     }
+    }

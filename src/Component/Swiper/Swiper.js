@@ -33,7 +33,8 @@ function Swiper() {
   ];
   return (
     <>
-      <section className="swiper-container">
+           <div className="swiper-container">
+       <div className="swiper-container-logos">
         {data.map((image, index) => (
           <img
             key={index}
@@ -42,7 +43,20 @@ function Swiper() {
             className="swiper-image"
           />
         ))}
-      </section>
+      </div>
+      <div className="swiper-container-logos">
+        {data.map((image, index) => (
+          <img
+            key={index}
+            src={image.image}
+            alt="swiper-image"
+            className="swiper-image"
+          />
+        ))}
+      </div>
+      </div>
+    
+  
     </>
   );
 }

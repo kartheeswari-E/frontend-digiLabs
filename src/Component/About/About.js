@@ -8,8 +8,8 @@ function About() {
         <img src={logo} alt='...'/>
     </div>
     <div className='about-content'>
-    Mode UI is a comprehensive design system that empowers<br/>
-     designers and developers to create cohesive and visually stunning <br/>
+    Mode UI is a comprehensive design system that empowers
+     designers and developers to create cohesive and visually stunning
      user interfaces across various platforms and devices
     </div>
   </section>

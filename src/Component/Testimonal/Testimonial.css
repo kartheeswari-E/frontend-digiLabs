@@ -92,3 +92,15 @@ border: none;
     font-size: 24px;
   }
 }
+@media screen and (max-width:600px){
+  .testi-content{
+    font-size: 16px;
+    
+  }
+  .prev,
+  .next {
+    width: 2rem;
+    height: 2rem;
+    font-size: 15px;
+  }
+  }

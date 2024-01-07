@@ -89,6 +89,9 @@ a{
     top: 100%;
     visibility: visible;
 }
+.menu-item{
+    display: none;
+}
 
 .list{
 text-align: center;
@@ -104,4 +107,55 @@ text-align: center;
     padding: 5px 15px 5px 15px;
     border-radius: 5px;
     background: rgb(238,239,239);
+}
+@media (max-width: 991px){
+.nav-list ul {
+    display: none;
+}
+.navbar-container{
+    justify-content: space-around;
+}
+.menu-item{
+    display: block;
+    padding-right: 30px;
+   
+}
+.menu-icon{
+     font-size: 30px !important;
+}
+.navbar-container{
+    padding: 15px;
+}
+
+} .menu-icon-close{
+
+        position: absolute;
+        top: 15px;
+        color: white;
+        right: 55px;
+        font-size: 28px;
+
+}
+.navbar-mobile ul{
+    display: block;
+    position: absolute;
+    top: 55px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    padding: 10px 0;
+    background-color: #fff;
+    overflow-y: auto;
+    transition: 0.3s;
+}
+.navbar-mobile {
+    position: fixed;
+    overflow: hidden;
+    top: 44px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(65, 57, 66, 0.9);
+    transition: 0.3s;
+    /* z-index: 999; */
 }

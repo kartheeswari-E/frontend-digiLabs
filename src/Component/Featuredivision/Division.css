@@ -46,3 +46,11 @@ line-height: 20px;
     color: #5A6475;
     text-align:center;
 }
+@media screen and (max-width:600px){
+    .feature2-container{
+        width: 300px;
+        box-shadow:none;
+   
+        }
+        
+    }

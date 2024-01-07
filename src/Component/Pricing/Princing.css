@@ -21,3 +21,11 @@
     background: rgb(238,239,239) !important;
     color: #5A6475 !important;
 }
+@media screen and (max-width:600px){
+    .price-head{
+        width: fit-content;
+    }
+    .princing-container{
+        padding-top: 0;
+    }
+}

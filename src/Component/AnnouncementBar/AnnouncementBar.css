@@ -11,6 +11,7 @@
     padding:8px;
     gap:1.5%;
     width: 99%;
+    height: 27px;
 }
 .announcement-button{
     font-size:13px;
@@ -18,6 +19,7 @@
     padding: 2px 8px 4px 8px;
     background: rgb(241,241,242);
     border-radius: 15px;
+
     font-weight: 400;
 }
 .announcement-sentence{
@@ -27,8 +29,10 @@
 @media screen and (max-width:500px){
     .announcement-container{
         width: fit-content;
+    
     }
     .announcement-sentence{
        padding-left: 10px;
+       font-size: 13px;
     }
     }

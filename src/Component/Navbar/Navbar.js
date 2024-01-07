@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import LoginIcon from '@mui/icons-material/Login';
+import logo from "../Assests/Images/Mode UI Logo.png"
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 import "./Navbar.css"
 function Navbar() {
+  const[menu,setmenu]=useState(false)
   return<>
   <section className='navbar-container'>
-<div className='logo-container'>Mode UI</div>
-<div className='nav-list'>
+<img className='logo-container' src={logo} alt='...'></img>
+<div className={!menu?'nav-list':"navbar-mobile"}>
     <ul className='list-items'>
         <li className="dropdown" >
          <Link className='list'><span>Card access</span>< KeyboardArrowDownIcon/></Link>
@@ -42,7 +46,10 @@ function Navbar() {
   <div className='login-container'>
       <span>Login</span><LoginIcon/>
     </div>
+<div onClick={()=>setmenu(!menu)} className='menu-item'>
+{!menu?<MenuIcon className='menu-icon'/>:<CloseIcon  className='menu-icon-close'/>}
 
+</div>
   </section>
   </>
 }
