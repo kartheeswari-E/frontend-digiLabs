@@ -68,7 +68,7 @@ a{
     transition: 0.3s;
     text-decoration: none;
 }
-.dropdown ul {
+.dropdown ul ,.dropdown-mobile ul{
     display: block;
     position: absolute;
     left: 14px;
@@ -158,4 +158,12 @@ text-align: center;
     background: rgba(65, 57, 66, 0.9);
     transition: 0.3s;
     /* z-index: 999; */
+}
+
+
+.dropdown-mobile:hover>ul {
+    opacity: 1;
+margin: 20px;
+    position: static;
+    visibility: visible;
 }

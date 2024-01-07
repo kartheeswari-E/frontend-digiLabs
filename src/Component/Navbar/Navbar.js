@@ -8,21 +8,22 @@ import CloseIcon from '@mui/icons-material/Close';
 import "./Navbar.css"
 function Navbar() {
   const[menu,setmenu]=useState(false)
+  const[close,setclose]=useState(true)
   return<>
   <section className='navbar-container'>
 <img className='logo-container' src={logo} alt='...'></img>
 <div className={!menu?'nav-list':"navbar-mobile"}>
     <ul className='list-items'>
-        <li className="dropdown" >
-         <Link className='list'><span>Card access</span>< KeyboardArrowDownIcon/></Link>
-         <ul className='sub-list'>
+        <li className={!menu?"dropdown":"dropdown-mobile"} >
+         <Link  className='list'><span>Card access</span>< KeyboardArrowDownIcon/></Link>
+      <ul className='sub-list'>
                   <li>
                     <Link >Demo1 Link</Link>
                   </li>
                   <li>
                     <Link className='gap-top'>Demo2 Link</Link>
                   </li>
-                </ul>
+                </ul>   
         </li>
         <li>
         <Link className='list'>Banking</Link>
