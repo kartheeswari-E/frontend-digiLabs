@@ -24,7 +24,7 @@ function Navbar() {
             `${process.env.REACT_APP_API_URL}/image/getimage`
           )
           .then( res=>{setdata(res)
-        setstore(res.data[12].image.originalname)})
+        setstore(res.data[28].image.originalname)})
           
          .catch(err=>{console.log(err)})
     
@@ -41,7 +41,7 @@ function Navbar() {
       {/* <div className='table-container'>
 
   </div> */}   
-   {store?<img className='logo-container' src={`https://admin-panel-backend-digilabs.vercel.app/uploads/${store}`} alt='..'/>:"loading"}
+   {store?<img className='logo-container' src={`https://lastapp-ih15.onrender.com/uploads/${store}`} alt='..'/>:"loading"}
 
 <div className={!menu?'nav-list':"navbar-mobile"}>
     <ul className='list-items'>
