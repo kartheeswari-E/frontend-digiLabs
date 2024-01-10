@@ -43,10 +43,16 @@ color:
     cursor: pointer;
     text-align: center;
 }
+.feature-style{
+    color: #582066 !important;
+}
 @media (max-width: 991px){
     .feature-whole-container{
 
         padding-left:0;
         padding-right:0;
     }
+}
+.black{
+    color: black;
 }

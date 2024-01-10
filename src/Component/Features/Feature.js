@@ -18,7 +18,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  */}
         <div className='feature-content'>
 consectetur adipiscing elit, sed do eiusmod tempor incididunt <br/>ut labore et dolore magna aliqua.
         </div>
-        <div className='link-feature'><span>Compare all Pro features</span><ArrowForwardIcon/></div>
+        <div className='link-feature'><span className='feature-style'>Compare all Pro features</span><ArrowForwardIcon/></div>
     </div>
   </section>
   </>

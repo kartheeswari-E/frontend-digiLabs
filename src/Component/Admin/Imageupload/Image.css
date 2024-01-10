@@ -1,0 +1,54 @@
+.image-upload-container{
+    margin-top: 60px;
+    margin-left: 340px;
+    padding: 20px 30px;
+    transition: all 0.3s ease 0s;
+}
+.page-tittle{
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(1, 41, 112);
+}
+.upload-form{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 50px auto;
+    background: rgb(244, 247, 253);
+}
+.file-label{
+padding: 7px 12px 7px 0px;
+font-size: large;
+color: rgb(1, 41, 112);
+font-weight: bold;
+}
+.row{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.image-input{
+   
+    margin: 10px 18px 0 0;
+    display: block;
+    font-size:17px;
+    font-weight: 400;
+    line-height: 1.5;
+    background: white;
+    border:1px solid gray;
+    border-radius:5px;
+}
+.file-submit-button{
+   padding: 5px 20px;
+   border: 1px solid rgb(1, 41, 112);
+   border-radius: 5px;
+   background: rgb(1, 41, 112);
+   color: white;
+   font-size: 15px;
+   font-weight: 500;
+   cursor: pointer;
+}

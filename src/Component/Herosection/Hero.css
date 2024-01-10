@@ -52,11 +52,15 @@
   gap:10px;
   cursor: pointer;
   background:#582066 ;
-  color: white;
+  color: white !important;
   padding: 10px 10px;
   border-radius: 5px;
 font-size: large;
 margin-top: 10px;
+}
+.white{
+    color: white !important;
+    font-size: large;
 }
 .note{
     font-size: 14px;
