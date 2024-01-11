@@ -52,7 +52,7 @@ function Dashboard() {
               <th scope="col">Delete</th>
             </tr>
           </thead>
-       {data?<tbody>
+       <tbody>
             {page.map((data, i) => {
               return (
                 <>
@@ -67,7 +67,7 @@ function Dashboard() {
                 </>
               );
             })}
-          </tbody>:"loading"}   
+          </tbody>
         </table>
 
         <div className="page-container">
