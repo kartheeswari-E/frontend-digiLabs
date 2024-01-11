@@ -30,23 +30,6 @@ function Navbar() {
     }
 
 
-    // let loadData = async () => {
-    //     try {
-    //       let imagedata = await axios.get(
-    //         `${process.env.REACT_APP_API_URL}/image/getimage`
-    //       )
-    //       .then( res=>{setdata(res)
-    //     setstore(res.data[29].image.originalname)})
-          
-    //      .catch(err=>{console.log(err)})
-    
-    
-    //     } catch (error) {
-    //       console.log(error);
-    //     }
-    //   };
-
-    //   console.log(data,store);
 
   return<>
   <section className='navbar-container'>

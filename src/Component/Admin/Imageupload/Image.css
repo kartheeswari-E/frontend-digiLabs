@@ -23,6 +23,11 @@
 #remove-width{
     margin-top: 0px !important;
 }
+.hint{
+    margin: 20px;
+    color: blue;
+    font-weight: 600;
+}
 .rows{
     width: fit-content;
     margin:30px auto;
