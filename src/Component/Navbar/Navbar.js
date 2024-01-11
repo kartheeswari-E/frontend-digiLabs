@@ -8,11 +8,10 @@ import axios from 'axios';
 import "./Navbar.css"
 function Navbar() {
   const[menu,setmenu]=useState(false)
-  const[close,setclose]=useState(true)
+
   const navigate=useNavigate();
   const [data, setdata] = useState({});
 
-    const [store,setstore]=useState("")
     useEffect(() => {
       loadData();
     }, []);
@@ -24,7 +23,6 @@ function Navbar() {
         let info = sitedata.data[0]
   
         setdata(info.image)
-    
      
       } catch (error) {
         console.log(error)

@@ -20,6 +20,16 @@
     margin: 50px auto;
     background: rgb(244, 247, 253);
 }
+#remove-width{
+    margin-top: 0px !important;
+}
+.rows{
+    width: fit-content;
+    margin:30px auto;
+    text-align: center;
+    display: flex;
+    gap:20px
+}
 .file-label{
 padding: 7px 12px 7px 0px;
 font-size: large;
