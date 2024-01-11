@@ -52,7 +52,7 @@ function Dashboard() {
               <th scope="col">Delete</th>
             </tr>
           </thead>
-       {!data?<tbody>
+       {data?<tbody>
             {page.map((data, i) => {
               return (
                 <>
