@@ -16,8 +16,8 @@
     margin-left: 4%;
     font-size: 25px;
     height: 30px;
-    width: 80px;
-    object-fit: cover;
+    width: 120px;
+    object-fit: contain;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
     text-align: center;
