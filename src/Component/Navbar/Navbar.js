@@ -17,31 +17,45 @@ function Navbar() {
       loadData();
     }, []);
 
-
+  
     let loadData = async () => {
-        try {
-          let imagedata = await axios.get(
-            `${process.env.REACT_APP_API_URL}/image/getimage`
-          )
-          .then( res=>{setdata(res)
-        setstore(res.data[28].image.originalname)})
-          
-         .catch(err=>{console.log(err)})
+      try {
+        let sitedata = await axios.get(`${process.env.REACT_APP_API_URL}/image/webdata`);
+        let info = sitedata.data[0]
+  
+        setdata(info.image)
     
-    
-        } catch (error) {
-          console.log(error);
-        }
-      };
+     
+      } catch (error) {
+        console.log(error)
+      }
+    }
 
-      console.log(data,store);
+
+    // let loadData = async () => {
+    //     try {
+    //       let imagedata = await axios.get(
+    //         `${process.env.REACT_APP_API_URL}/image/getimage`
+    //       )
+    //       .then( res=>{setdata(res)
+    //     setstore(res.data[29].image.originalname)})
+          
+    //      .catch(err=>{console.log(err)})
+    
+    
+    //     } catch (error) {
+    //       console.log(error);
+    //     }
+    //   };
+
+    //   console.log(data,store);
 
   return<>
   <section className='navbar-container'>
       {/* <div className='table-container'>
 
   </div> */}   
-   {store?<img className='logo-container' src={`https://lastapp-ih15.onrender.com/uploads/${store}`} alt='..'/>:"loading"}
+   {data?<img className='logo-container' src={data} alt='..'/>:"loading"}
 
 <div className={!menu?'nav-list':"navbar-mobile"}>
     <ul className='list-items'>

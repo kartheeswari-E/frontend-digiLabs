@@ -15,6 +15,9 @@
 .logo-container{
     margin-left: 4%;
     font-size: 25px;
+    height: 30px;
+    width: 80px;
+    object-fit: cover;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
     text-align: center;
