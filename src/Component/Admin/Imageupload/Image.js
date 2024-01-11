@@ -69,7 +69,7 @@ function Image() {
     }
   };
   const textbuttonauth = async () => {
-    let buttontext = "test";
+    let buttontext = "You are Authorized";
     console.log(buttontext);
     try {
       let imagedata = await axios.put(
