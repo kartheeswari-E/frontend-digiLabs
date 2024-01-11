@@ -15,6 +15,10 @@ function Sidebar() {
       <WidgetsRoundedIcon className='sidebar-icon' />
         <span>Image Update</span>
       </Link>
+      <Link to="/" className="nav-link ">
+      <WidgetsRoundedIcon className='sidebar-icon' />
+        <span>Back to Client</span>
+      </Link>
     </li> </ul>
   </div>
   </>
